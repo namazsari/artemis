@@ -1,6 +1,6 @@
 env:
   repo:         "https://github.com/farrukh90/artemis.git"
-  app_version:  "3.0.0"
+  app_version:  "2.0.0"
   project_id:   "terraform-project-namazsari"
   repo_region:  "us-central1"
   app_name:     "artemis"
@@ -73,9 +73,6 @@ jobs:
         uses: 'google-github-actions/auth@v0'
         with:
           credentials_json: '${{ secrets.SERVICE_ACCOUNT }}'
-
-
-
 
 
 
